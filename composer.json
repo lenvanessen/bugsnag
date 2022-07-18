@@ -2,7 +2,7 @@
     "name": "verbb/bugsnag",
     "description": "Log Craft errors/exceptions to Bugsnag.",
     "type": "craft-plugin",
-    "version": "3.0.0",
+    "version": "4.0.0",
     "keywords": [
         "craft",
         "cms",
@@ -29,7 +29,7 @@
         }
     ],
     "require": {
-        "craftcms/cms": "^3.7.0",
+        "craftcms/cms": "^4.0",
         "verbb/base": "^1.0.2",
         "bugsnag/bugsnag": "^3.16.0"
     },
