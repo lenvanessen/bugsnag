@@ -47,7 +47,7 @@ class Bugsnag extends Plugin
         $this->_registerCraftEventListeners();
     }
 
-    public function getSettingsResponse()
+    public function getSettingsResponse(): mixed
     {
         Craft::$app->getResponse()->redirect(UrlHelper::cpUrl('bugsnag/settings'));
     }
