@@ -22,8 +22,8 @@ class Bugsnag extends Plugin
     // Properties
     // =========================================================================
 
-    public $schemaVersion = '2.0.0';
-    public $hasCpSettings = true;
+    public string $schemaVersion = '2.0.0';
+    public bool $hasCpSettings = true;
 
 
     // Traits
